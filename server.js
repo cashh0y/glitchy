@@ -50,8 +50,3 @@ const http = require('http'),
 proxy.ws(server);
 
 server.listen(process.env.PORT || config.port, () => console.log(`${config.ssl ? 'https://' : 'http://'}0.0.0.0:${config.port}`))
-
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3601321214629909"
-     crossorigin="anonymous"></script>
